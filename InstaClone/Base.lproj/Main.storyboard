@@ -103,7 +103,7 @@
                     <connections>
                         <outlet property="emailText" destination="JzZ-V7-kJs" id="NK3-mW-6qK"/>
                         <outlet property="passwordText" destination="gFx-SL-8Hw" id="AbV-cG-7Eq"/>
-                        <segue destination="V4x-Al-lPg" kind="show" identifier="toHomeScreen" id="vyF-Ph-JSF"/>
+                        <segue destination="V4x-Al-lPg" kind="presentation" identifier="toHomeScreen" modalPresentationStyle="fullScreen" id="vyF-Ph-JSF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

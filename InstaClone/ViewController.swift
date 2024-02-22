@@ -50,9 +50,9 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == Segue.toHomeScreen {
-            if let destinationVC = segue.destination as? HomeViewController {
-                destinationVC.navigationItem.hidesBackButton = true
-            }
+//            if let destinationVC = segue.destination as? HomeViewController {
+//                destinationVC.navigationItem.hidesBackButton = true
+//            }
         }
     }
     
